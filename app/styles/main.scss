@@ -8,10 +8,33 @@ body {
     padding-bottom: 20px;
 }
 
+.customTextArea{
+    margin: 0 auto;
+    width: 400px;
+}
+
+.customTextArea textarea{
+    width: 400px;
+    height: 150px;
+}
+
+.customTextArea button{
+    text-align: right;
+    font-size: 12px;
+}
+
+.customTextArea p{
+    text-align: right;
+    font-size: 12px;
+}
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header{
     padding-left: 15px;
     padding-right: 15px;
+}
+ul{
+    list-style: none;
 }
 
 /* Custom page header */
